@@ -31,4 +31,4 @@ The local packaging recipe rebases binary library paths and applies ad-hoc signa
 
 ## Application code
 
-Tuantuan's desktop UI, vector character, interaction state and movement logic were implemented separately for this project. No separate open-source license has yet been selected for this application code; third-party licenses apply only to their respective components.
+Tuantuan's desktop UI, vector character, interaction state and movement logic were implemented separately for this project. Tuantuan's own application code, build scripts and documentation are licensed under the MIT License; see the repository's root `LICENSE` file. Copyright (c) 2026 JunbiaoXue. Third-party components and model weights remain subject to their respective licenses and notices; they are not relicensed under MIT.

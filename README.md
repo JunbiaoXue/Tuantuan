@@ -110,4 +110,8 @@ Python → laya-mlx → 本地 Laya 权重
 
 固定权重快照：`f2b4faf51023039425946074e2cf1361d2db11d5`。应用源码不包含上游模型实现或权重；完整打包时才会将依赖和权重复制进 App。
 
-上游的版权及许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和 [licenses/](licenses/)。Laya 的 Apache-2.0 许可不自动构成本仓库全部应用代码的授权；团团自身代码目前尚未单独指定开源许可证。
+## 许可证
+
+团团自身的应用代码、构建脚本和文档以 **[MIT License](LICENSE)** 开源，允许使用、修改、分发和商业使用，需保留许可证及版权声明。
+
+Laya、laya-mlx、模型权重及其他第三方组件仍遵循各自的许可证，不因本项目采用 MIT 而变更。相关版权、许可及署名说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和 [licenses/](licenses/)。

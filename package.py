@@ -109,6 +109,7 @@ def main():
     resources.mkdir()
     shutil.copy2(bin_dir / 'Tuantuan', macos / 'Tuantuan')
     shutil.copy2(SOURCE / 'runtime/brain.py', resources / 'brain.py')
+    shutil.copy2(SOURCE / 'LICENSE', resources / 'LICENSE')
     shutil.copy2(SOURCE / 'THIRD_PARTY_NOTICES.md', resources / 'THIRD_PARTY_NOTICES.md')
     shutil.copytree(SOURCE / 'licenses', resources / 'licenses')
     if args.with_laya:
